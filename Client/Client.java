@@ -7,7 +7,7 @@ public class Client {
 
 
     public static void main(String[] args) {
-   	 System.out.println("Detta är Klient-programmet.");
+   	 System.out.println("Detta ar Klient-programmet.");
    	 Random rand = new Random();
    	 try {
    		 Socket klient = new Socket("wiljha.ntig.dev", 34567);
@@ -17,7 +17,7 @@ public class Client {
    		 DataOutputStream output = new DataOutputStream(klient.getOutputStream());
    		 output.writeInt(rand.nextInt(64) + 1);
    		 
-   		 //stäng ner anslutningen
+   		 //stang ner anslutningen
    		 output.close();
    		 klient.close();
    		 
