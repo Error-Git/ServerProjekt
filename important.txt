@@ -1,0 +1,3 @@
+
+
+Seems to crash when using: åäö
